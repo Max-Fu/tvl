@@ -1,0 +1,12 @@
+output_dir/*
+demo/*
+*.yaml
+.idea/*
+.amlt*
+*__pycache__*
+util/__pycache__/*
+output
+wandb
+*.lprof
+.datasets
+*egg_info

@@ -1,0 +1,16 @@
+output_dir/*
+demo/*
+*.yaml
+.idea/*
+.amlt*
+*__pycache__*
+util/__pycache__/*
+output
+!output/remove.sh
+!output/remove_ft_lp.sh
+wandb
+affinity.png
+*.lprof
+.datasets
+vis_dir
+*egg_info

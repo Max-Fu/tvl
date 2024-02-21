@@ -106,7 +106,7 @@ Please cite our work if you find our work inspiring or use our code in your work
 @article{fu2024tvl,
     title={A Touch, Vision, and Language Dataset for Multimodal Alignment}, 
     author={Letian Fu and Gaurav Datta and Huang Huang and William Chung-Ho Panitch and Jaimyn Drake and Joseph Ortiz and Mustafa Mukadam and Mike Lambeta and Roberto Calandra and Ken Goldberg},
-    journal={arXiv preprint arXiv:2401.14391},
+    journal={arXiv preprint arXiv:2402.13232},
     year={2024}
 }
 ```

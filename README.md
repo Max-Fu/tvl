@@ -1,7 +1,7 @@
 # A Touch, Vision, and Language Dataset for Multimodal Alignment
 by <a href="https://max-fu.github.io">Max (Letian) Fu</a>, <a href="https://www.linkedin.com/in/gaurav-datta/">Gaurav Datta*</a>, <a href="https://qingh097.github.io/">Huang Huang*</a>, <a href="https://autolab.berkeley.edu/people">William Chung-Ho Panitch*</a>, <a href="https://www.linkedin.com/in/jaimyn-drake/">Jaimyn Drake*</a>, <a href="https://joeaortiz.github.io/">Joseph Ortiz</a>, <a href="https://www.mustafamukadam.com/">Mustafa Mukadam</a>, <a href="https://scholar.google.com/citations?user=p6DCMrQAAAAJ&hl=en">Mike Lambeta</a>, <a href="https://lasr.org/">Roberto Calandra</a>, <a href="https://goldberg.berkeley.edu">Ken Goldberg</a> at UC Berkeley, Meta AI, TU Dresden, and CeTI (*equal contribution).
 
-[[Paper](https://tactile-vlm.github.io/files/tvl.pdf)] | [[Project Page](https://tactile-vlm.github.io/)] | [[Checkpoints](https://huggingface.co/mlfu7/Touch-Vision-Language-Models)] | [[Dataset](https://huggingface.co/datasets/mlfu7/Touch-Vision-Language-Dataset)] | [[Citation](#citation)]
+[[Paper](https://arxiv.org/abs/2402.13232)] | [[Project Page](https://tactile-vlm.github.io/)] | [[Checkpoints](https://huggingface.co/mlfu7/Touch-Vision-Language-Models)] | [[Dataset](https://huggingface.co/datasets/mlfu7/Touch-Vision-Language-Dataset)] | [[Citation](#citation)]
 
 <p align="center">
   <img src="img/splash_figure_alt.png" width="800">

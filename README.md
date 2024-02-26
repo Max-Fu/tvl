@@ -28,6 +28,7 @@ The dataset is hosted on [HuggingFace](https://huggingface.co/datasets/mlfu7/Tou
 ```bash
 # git lfs install (optional)
 git clone git@hf.co:datasets/mlfu7/Touch-Vision-Language-Dataset
+# or you can download the zip files manually from here: https://huggingface.co/datasets/mlfu7/Touch-Vision-Language-Dataset/tree/main
 cd Touch-Vision-Language-Dataset
 zip -s0 tvl_dataset_sharded.zip --out tvl_dataset.zip
 unzip tvl_dataset.zip 

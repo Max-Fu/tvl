@@ -1,0 +1,7 @@
+META:
+  - '/home/mfu/dataset/alpaca/alpaca_gpt4_data.json'
+  - '/home/mfu/dataset/llava_instruct/llava_instruct_150k_new.json'
+  - '/home/mfu/dataset/tvl_dataset/ssvtp/finetune.json'
+  - '/home/mfu/dataset/tvl_dataset/hct/data1/finetune.json'
+  - '/home/mfu/dataset/tvl_dataset/hct/data2/finetune.json'
+  - '/home/mfu/dataset/tvl_dataset/hct/data3/finetune.json'

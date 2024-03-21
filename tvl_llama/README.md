@@ -41,7 +41,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -u -m torch.distributed.launch --master_port
 ### GPT-4 Evaluation
 We use GPT-4 to perform evaluation. In order to run the evaluation, first obtain your [OPENAI_API_KEY](https://platform.openai.com/api-keys). Then replace `$$OPENAI_KEY`, `$ckpt_path`, `$dataset_dir`, `$llama_dir`, `$encoder_ckpt_path` accordingly:
 ```bash
-OPENAI_API_KEY=$OPENAI_KEY python evaluate_all.py --has_lora --model_path $ckpt_path --gpt --active_modality_names tactile vision --tactile_model vit_small_patch16_224 --checkpoint_path $encoder_ckpt_path --eval_datasets ssvtp hct --datasets_dir $dataset_dir --llama_dir $llama_dir --crop_tacvis
+OPENAI_API_KEY=$OPENAI_KEY python evaluate.py --has_lora --model_path $ckpt_path --gpt --active_modality_names tactile vision --tactile_model vit_small_patch16_224 --checkpoint_path $encoder_ckpt_path --eval_datasets ssvtp hct --datasets_dir $dataset_dir --llama_dir $llama_dir --crop_tacvis
 ```
 The script will generate a json file that contains the model generated outputs and GPT4 Rating.
 - Optionally, for the zero-shot single modality as input experiments, you can change `--active_modality_names` and only provide one modality as input, *i.e.* `--active_modality_names tactile`

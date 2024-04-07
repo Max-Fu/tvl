@@ -26,7 +26,10 @@ pip install -e .
 ## Dataset
 The dataset is hosted on [HuggingFace](https://huggingface.co/datasets/mlfu7/Touch-Vision-Language-Dataset). To use the dataset, we first download them using the GUI or use git:
 ```bash
-# git lfs install (optional)
+# install git-lfs
+sudo apt install git-lfs
+git lfs install
+# clone the dataset
 git clone git@hf.co:datasets/mlfu7/Touch-Vision-Language-Dataset
 # or you can download the zip files manually from here: https://huggingface.co/datasets/mlfu7/Touch-Vision-Language-Dataset/tree/main
 cd Touch-Vision-Language-Dataset

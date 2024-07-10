@@ -107,10 +107,12 @@ Please give us a star 🌟 on Github to support us!
 
 Please cite our work if you find our work inspiring or use our code in your work:
 ```
-@article{fu2024tvl,
-    title={A Touch, Vision, and Language Dataset for Multimodal Alignment}, 
+@inproceedings{
+    fu2024a,
+    title={A Touch, Vision, and Language Dataset for Multimodal Alignment},
     author={Letian Fu and Gaurav Datta and Huang Huang and William Chung-Ho Panitch and Jaimyn Drake and Joseph Ortiz and Mustafa Mukadam and Mike Lambeta and Roberto Calandra and Ken Goldberg},
-    journal={arXiv preprint arXiv:2402.13232},
-    year={2024}
+    booktitle={Forty-first International Conference on Machine Learning},
+    year={2024},
+    url={https://openreview.net/forum?id=tFEOOH9eH0}
 }
 ```

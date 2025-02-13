@@ -18,6 +18,7 @@ To setup our dataset, please refer to [README.md](../README.md). We also use CC3
 - [CC3M](https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K) is used for pre-training. Please update the downloaded `csv` path in [pretrain-data-config.yaml](exps/pretrain-data-config.yaml). 
 - [Alpaca GPT4](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data.json) is used for finetuning. Please update the downloaded `json` path in [finetune-data-config.yaml](exps/finetune-data-config.yaml). 
 - [LLaVA Instruct 150K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) is used for finetuning. Please update the downloaded `json` path in [finetune-data-config.yaml](exps/finetune-data-config.yaml). 
+Alternatively, you can obtain the labels [here](https://huggingface.co/datasets/mlfu7/Touch-Vision-Language-Dataset/tree/main/labels). 
 
 Please also verify the correctness of the path for each of the training files in [pretrain-data-config.yaml](exps/pretrain-data-config.yaml) and [finetune-data-config.yaml](exps/finetune-data-config.yaml).
 

@@ -36,6 +36,14 @@ cd Touch-Vision-Language-Dataset
 zip -s0 tvl_dataset_sharded.zip --out tvl_dataset.zip
 unzip tvl_dataset.zip 
 ```
+### Improved version available
+There’s an improved version of this dataset, which fixes the tactile/image folder swapping issue.
+You can find it [here](https://huggingface.co/datasets/yoorhim/TVL-revise):
+```bash
+# clone the revised dataset
+git clone git@hf.co:datasets/yoorhim/TVL-revise
+# or you can download the zip files manually from here: https://huggingface.co/datasets/yoorhim/TVL-revise/tree/main
+```
 
 ## Models
 Touch-Vision-Language (TVL) Models can be separated into 1) tactile encoders that are aligned to the CLIP latent space and 2) TVL-LLaMA, a variant of [ImageBind-LLM](https://github.com/OpenGVLab/LLaMA-Adapter/tree/main/imagebind_LLM) that is finetuned on the TVL dataset. The tactile encoders come in three different sizes: ViT-Tiny, ViT-Small, and ViT-Base. As a result, we provide three different TVL-LLaMA. *The statistics presented here differ from those in the paper as the checkpoints are re-trained using this repository.*

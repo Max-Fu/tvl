@@ -416,7 +416,7 @@ def download(url: str, root: str):
     if os.path.isfile(download_target):
         return download_target
 
-    with urllib.request.urlopen(url) as source, open(download_target, "wb") as output:
+    with urllib.request.urlopen(url, timeout=30) as source, open(download_target, "wb") as output:
         with tqdm(total=int(source.info().get("Content-Length")), ncols=80, unit='iB', unit_scale=True, unit_divisor=1024) as loop:
             while True:
                 buffer = source.read(8192)
